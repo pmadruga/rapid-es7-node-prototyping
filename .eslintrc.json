@@ -1,0 +1,27 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-this-before-super": "warn",
+        "no-undef": "error",
+        "no-unreachable": "error",
+        "no-unused-vars": "error",
+        "constructor-super": "warn",
+        "valid-typeof": "warn",
+        "indent": ["error", "tab"],
+        "no-tabs": "off",
+        "strict": "off"
+    },
+    "extends": "airbnb",
+    "installedESLint": true
+}

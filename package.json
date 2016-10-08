@@ -1,0 +1,32 @@
+{
+  "name": "rapid-es7-node-prototyping",
+  "version": "0.0.1",
+  "description": "Rapidly starting a node project capable of ES7's async/await",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "./node_modules/.bin/babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmadruga/rapid-es7-node-prototyping.git"
+  },
+  "author": "Pedro Madruga",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/pmadruga/rapid-es7-node-prototyping/issues"
+  },
+  "homepage": "https://github.com/pmadruga/rapid-es7-node-prototyping#readme",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2017": "^6.16.0",
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0"
+  },
+  "dependencies": {
+    "node-fetch": "^1.6.3"
+  }
+}

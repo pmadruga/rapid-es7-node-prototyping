@@ -1,2 +1,11 @@
 # rapid-es7-node-prototyping
-Allows me to start a node project and use ES7's async/await
+Rapidly starting a node project capable of ES7's async/await.
+It also has linting rules (airbnb eslint rules with tab spacing).
+
+## Install
+`npm install`
+
+## Run
+`npm start`
+
+
